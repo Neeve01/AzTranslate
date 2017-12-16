@@ -70,7 +70,6 @@ function AzTranslate.GetTranslation(lang, key, ...)
 			table.insert(result, translated)
 		end
 		
-		PrintTable(result)
 		return unpack(result)
 	end
 	
